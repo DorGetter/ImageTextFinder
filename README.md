@@ -2,6 +2,10 @@
 
 # OCR and Text Search Application
 
+![User Interface](pics/ocr_application.png)
+
+
+
 This application allows users to perform Optical Character Recognition (OCR) and text search in images within a specified directory. The application rotates each image by 0, 90, 180, and 270 degrees and performs OCR on each rotated image. It then searches for a specified substring within the recognized text and returns the names of images where the substring is found.
 
 ## Prerequisites
