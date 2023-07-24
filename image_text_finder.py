@@ -44,6 +44,8 @@ def main():
                 st.success(f"Substring '{search_string}' found in the following images: ")
                 for image in found_in_images:
                     st.write("- ",  os.path.join(image_directory, image))
+                    st.image(os.path.join(image_directory, image), caption='', use_column_width=True)
+
             else:
                 st.warning(f"Substring '{search_string}' not found in any image.")
         except Exception as e:
